@@ -1,0 +1,10 @@
+MODEL_NAME = "google-bert/bert-base-uncased"
+MAX_LEN = 200
+BATCH_SIZE = 64
+EPOCHS = 10
+LR = 1e-4
+TRAIN_SPLIT = 0.7
+VAL_SPLIT = 0.15
+TEST_SPLIT = 0.15
+DROPOUT = 0.3
+RANDOM_STATE = 42

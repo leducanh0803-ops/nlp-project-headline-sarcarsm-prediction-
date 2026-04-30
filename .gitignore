@@ -1,0 +1,50 @@
+# ── Python ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual environment ────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter / notebooks ───────────────
+.ipynb_checkpoints/
+
+# ── OS files ──────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE (PyCharm / VSCode) ────────────
+.idea/
+.vscode/
+
+# ── Logs ──────────────────────────────
+*.log
+
+# ── Model weights (VERY IMPORTANT) ────
+weights/
+*.pt
+*.pth
+
+# ── Cache / temp ──────────────────────
+.cache/
+tmp/
+temp/
+
+# ── Streamlit ─────────────────────────
+.streamlit/
+
+# ── FastAPI / server ──────────────────
+*.db
+
+# ── Data files (optional) ─────────────
+data/*.csv
+data/*.json
+data/*.zip
+
+# ── Environment variables ─────────────
+.env

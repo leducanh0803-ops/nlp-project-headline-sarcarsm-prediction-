@@ -1,0 +1,11 @@
+torch>=2.0
+transformers>=4.35
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.7
+fastapi>=0.100
+uvicorn[standard]>=0.23
+streamlit>=1.25
+requests>=2.30
+pydantic>=2.0
